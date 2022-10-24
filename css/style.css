@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form {
+    max-width: 800px;
+    margin: 20px 10px;
+}
+
+.fieldset {
+    border: 2px solid rgb(161, 108, 210);
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+
+.form__field {
+    max-width: 190px;
+    width: 100%;
+    margin-left: 20px;
+    padding: 7px;
+    text-align: center;
+}
+
+.legend {
+    border: 2px solid rgb(161, 108, 210);
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(161, 108, 210);
+    color: white;
+    font-weight: 800;
+}
+
+.form__labelText {
+    display: inline-block;
+    max-width: 190px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.button {
+    border: 2px solid rgb(161, 108, 210);
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(161, 108, 210);
+    color: white;
+    font-weight: 800;
+}
+
+.paragraph {
+    margin: 10px;
+    border: 2px solid rgb(161, 108, 210);
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(161, 108, 210);
+    color: white;
+    font-weight: 800;
+}
