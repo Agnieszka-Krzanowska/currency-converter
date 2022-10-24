@@ -34,7 +34,7 @@ html {
     text-align: center;
 }
 
-.legend {
+.form__legend {
     border: 2px solid rgb(161, 108, 210);
     border-radius: 10px;
     padding: 5px;
